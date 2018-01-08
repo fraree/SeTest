@@ -1,5 +1,6 @@
 // Firsfox Driver set up
 WebDriver mydriver = new Firefoxdriver();
+mydriver.open("URL");
 mydriver.findElement(By.id()).click();
 mydriver.findElement(By.id()).sendKeys();
-
+myfriver.quit();
